@@ -108,5 +108,7 @@ export default defineConfig({
       }
     }
   },
+  base: '/VitePress/'
+
   // https://vitepress.dev/reference/default-theme-config
 })
