@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as i,ae as t}from"./chunks/framework.BjlC_BXf.js";const c=JSON.parse('{"title":"sign-up","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),n={name:"README.md"};function o(l,s,r,h,p,d){return i(),e("div",null,s[0]||(s[0]=[t("",30)]))}const u=a(n,[["render",o]]);export{c as __pageData,u as default};

@@ -1,0 +1,52 @@
+html[lang="he"] {
+    direction: rtl;
+}
+
+/* הזזת הסיידבר לימין במצב RTL */
+html[lang="he"] .VPNav,
+html[lang="he"] .VPSidebar {
+  direction: rtl;
+}
+
+html[lang="he"] .VPSidebar {
+  left: auto !important;
+  right: 0 !important;
+  border-right: none !important;
+  border-left: 1px solid var(--vp-c-divider) !important;
+}
+
+html[lang="he"] .VPContent {
+  margin-left: 0 !important;
+  margin-right: var(--vp-sidebar-width, 272px) !important;
+}
+
+/* יישור הלוגו והניווט העליון ב־RTL */
+html[lang="he"] .VPNav {
+  flex-direction: row-reverse !important;
+}
+
+html[lang="he"] .VPNav .VPNavBar {
+  justify-content: flex-end !important;
+}
+
+html[lang="he"] .VPNav .VPNavBar .VPNavBarTitle {
+  margin-left: 0 !important;
+  margin-right: 1rem !important; /* רווח בין הלוגו לניווט */
+}
+
+html[lang="he"] .VPNav .VPNavBar .VPNavBarMenu {
+  flex-direction: row-reverse !important;
+}
+
+/* הסרת רווח מיותר בדף הבית ב־RTL */
+html[lang="he"] .VPHome {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+html[lang="he"] .VPHome .container {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
