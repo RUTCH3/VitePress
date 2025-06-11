@@ -7,7 +7,7 @@ hero:
   text: "A cool tool to generate apps easier."
   tagline: My great project tagline
   image:
-    src: /vitepress-logo-large.svg
+    src: /logo.svg
     alt: VitePress
   actions:
     - theme: brand

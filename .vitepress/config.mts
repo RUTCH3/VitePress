@@ -9,7 +9,7 @@ export default defineConfig({
       title: 'Rock',
       description: 'A cool tool to generate apps easier.',
       themeConfig: {
-        logo: '/vitepress-logo-large.svg',
+        logo: '/logo.svg',
         siteTitle: 'Rock',
         nav: [
           { text: 'Home', link: '/' },
@@ -48,7 +48,7 @@ export default defineConfig({
       title: 'Rock - עברית',
       description: 'כלי מגניב ליצירת יישומים בקלות.',
       themeConfig: {
-        logo: '/vitepress-logo-large.svg',
+        logo: '/logo.svg',
         siteTitle: 'רוק',
         nav: [
           { text: 'בית', link: '/he/' },
