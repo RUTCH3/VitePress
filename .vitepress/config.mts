@@ -20,7 +20,7 @@ export default defineConfig({
             text: 'Quick Start',
             items: [
               { text: 'Installation Guide', link: '/installation-guide' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'Runtime API Examples', link: '/installation-guide-2' }
             ]
           }
         ],
@@ -59,7 +59,7 @@ export default defineConfig({
             text: 'התחלה מהירה',
             items: [
               { text: 'מדריך התקנה', link: '/he/installation-guide' },
-              { text: 'דוגמאות קריאת API', link: '/he/api-examples' }
+              { text: 'דוגמאות קריאת API', link: '/he/installation-guide-2' }
             ]
           }
         ],
