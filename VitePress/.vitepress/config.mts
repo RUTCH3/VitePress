@@ -7,7 +7,7 @@ export default {
       title: 'Rock',
       description: 'A cool tool to generate apps easier.',
       themeConfig: {
-        logo: '/logo.svg',
+        logo: '/docs/logo.svg',
         siteTitle: 'Rock',
         nav: [
           { text: 'Home', link: '/' },
@@ -50,7 +50,7 @@ export default {
       title: 'Rock | אפליקצייה ליצירת יישומים',
       description: 'כלי מגניב ליצירת יישומים בקלות.',
       themeConfig: {
-        logo: '/logo.svg',
+        logo: '/docs/logo.svg',
         siteTitle: 'Rock',
         nav: [
           { text: 'בית', link: '/he/' },
