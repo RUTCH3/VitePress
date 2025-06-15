@@ -119,7 +119,7 @@ export default {
       }
     }
   },
-  base: '/sign-up-2/',
+  base: '/VitePress/',
   ignoreDeadLinks: [
     /^https?:\/\/localhost/,
     /^\/he\/api-examples$/,
