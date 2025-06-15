@@ -7,7 +7,7 @@ hero:
   text: "Build powerful apps in minutes. No hassle. No limits."
   tagline: Your next big idea deserves the strongest foundation.
   image:
-    src: /logo.svg
+    src: /docs/logo.svg
     alt: Rock App Logo
   actions:
     - theme: brand
