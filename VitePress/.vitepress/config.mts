@@ -1,5 +1,6 @@
 export default {
   srcDir: 'docs',  
+  allowed_elements:["script","VPTeamMembers","Badge"],
   locales: {
     root: {
       label: 'English',
