@@ -88,4 +88,3 @@ Write a tool that when provided a password, it will return `true` if it passes t
 5. Minimum length of 8 characters.
 6. A character cannot be repeated more than twice.
 7. No sequences of 3 consecutive characters *(i.e. `abc`, `xyz`, `123`)*.
-
