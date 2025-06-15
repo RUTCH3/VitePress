@@ -6,7 +6,7 @@ hero:
   text: "בנו אפליקציות חזקות בדקות. בלי כאב ראש. בלי מגבלות."
   tagline: הרעיון הגדול הבא שלך ראוי לבסיס הכי חזק.
   image:
-    src: /docs/logo.svg
+    src: /logo.svg
     alt: לוגו אפליקציית Rock
   actions:
     - theme: brand
