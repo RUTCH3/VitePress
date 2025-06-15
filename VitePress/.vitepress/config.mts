@@ -1,6 +1,7 @@
 export default {
-  srcDir: 'docs',  
-  allowed_elements:["script","VPTeamMembers","Badge"],
+  srcDir: 'docs',
+  allowed_elements: ["script", "VPTeamMembers", "Badge"],
+  base: '/VitePress1/',
   locales: {
     root: {
       label: 'English',
@@ -72,7 +73,7 @@ export default {
         outline: 'deep',
         editLink: {
           pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-          text: 'ערוך דף זה ב ־ GitHub'
+          text: 'ערוך דף זה ב - GitHub'
         },
         docFooter: {
           prev: 'לעמוד הקודם',
@@ -120,7 +121,6 @@ export default {
       }
     }
   },
-  base: '/VitePress/',
   ignoreDeadLinks: [
     /^https?:\/\/localhost/,
     /^\/he\/api-examples$/,
