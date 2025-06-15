@@ -120,7 +120,7 @@ export default {
       }
     }
   },
-  base: '/',
+  base: '/VitePress/',
   ignoreDeadLinks: [
     /^https?:\/\/localhost/,
     /^\/he\/api-examples$/,
