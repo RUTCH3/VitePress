@@ -6,12 +6,15 @@ hero:
   text: "בנו אפליקציות חזקות בדקות. בלי כאב ראש. בלי מגבלות."
   tagline: הרעיון הגדול הבא שלך ראוי לבסיס הכי חזק.
   image:
-    src: /docs/logo.svg
+    src: /logo.svg
     alt: לוגו אפליקציית Rock
   actions:
     - theme: brand
       text: התחילו עכשיו
       link: /he/installation-guide
+    - theme: alt
+      text: הצוות שלנו
+      link: /he/our-team
 
 features:
   - title: 🚀 יצירת אפליקציה מיידית

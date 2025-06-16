@@ -11,7 +11,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: './image.png',
+    avatar: '/VitePress/image.png',
     name: 'Rut Chizkiyahu',
     title: 'CEO & Founder',
     links: [
@@ -20,7 +20,7 @@ const members = [
     ]
   },
   {
-    avatar: './image.png',
+    avatar: '/VitePress/image.png',
     name: 'Sarah Levy',
     title: 'Head of Development',
     links: [
@@ -29,7 +29,7 @@ const members = [
     ]
   },
   {
-    avatar: './image.png',
+    avatar: '/VitePress/image.png',
     name: 'Rachel Israeli',
     title: 'Chief Engineer',
     links: [

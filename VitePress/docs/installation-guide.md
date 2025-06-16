@@ -93,7 +93,7 @@ npm run deploy
 `rock config` — adjust build, deploy, and UI settings
 :::
 
-::: tip 
+::: tip
 `rock doctor` — fix common issues automatically
 :::
 
@@ -109,6 +109,6 @@ npm run deploy
 
 ---
 
->  Need help? Join our [Discord](https://discord.gg/rock) or open an [issue on GitHub](https://github.com/rutch3/VitePress/issues).
+> Need help? Join our [Discord](https://discord.gg/rock) or open an [issue on GitHub](https://github.com/rutch3/VitePress/issues).
 
 Let **Rock** help you build and deploy with confidence!
