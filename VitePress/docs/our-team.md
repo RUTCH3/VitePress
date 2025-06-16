@@ -1,6 +1,5 @@
 ---
-layout: doc
-title: Our Team
+outline: deep
 ---
 
 # Our Team
@@ -12,7 +11,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/image.png',
+    avatar: './image.png',
     name: 'Rut Chizkiyahu',
     title: 'Founder & CEO',
     links: [
@@ -21,7 +20,7 @@ const members = [
     ]
   },
   {
-    avatar: '/image.png',
+    avatar: './image.png',
     name: 'Sarah Levy',
     title: 'CTO',
     links: [
@@ -30,7 +29,7 @@ const members = [
     ]
   },
   {
-    avatar: '/image.png',
+    avatar: './image.png',
     name: 'Rachel Israeli',
     title: 'Chief Engineer',
     links: [
