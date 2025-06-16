@@ -1,5 +1,6 @@
 ---
-outline: deep
+layout: doc
+title: הצוות שלנו
 ---
 
 # הצוות שלנו
@@ -11,7 +12,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/VitePress/image.png',
+    avatar: '/image.png',
     name: 'רות חזקיהו',
     title: 'מנכ"לית ומייסדת',
     links: [
@@ -20,7 +21,7 @@ const members = [
     ]
   },
   {
-    avatar: '/VitePress/image.png',
+    avatar: '/image.png',
     name: 'שרה לוי',
     title: 'מנהלת פיתוח',
     links: [
@@ -29,7 +30,7 @@ const members = [
     ]
   },
   {
-    avatar: '/VitePress/image.png',
+    avatar: '/image.png',
     name: 'רחל ישראלי',
     title: 'מהנדסת ראשית',
     links: [

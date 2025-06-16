@@ -1,5 +1,6 @@
 ---
-outline: deep
+layout: doc
+title: Our Team
 ---
 
 # Our Team
@@ -11,25 +12,25 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/VitePress/image.png',
+    avatar: '/image.png',
     name: 'Rut Chizkiyahu',
-    title: 'CEO & Founder',
+    title: 'Founder & CEO',
     links: [
       { icon: 'github', link: 'https://github.com/ptr-15' },
       { icon: 'linkedin', link: 'https://linkedin.com' }
     ]
   },
   {
-    avatar: '/VitePress/image.png',
+    avatar: '/image.png',
     name: 'Sarah Levy',
-    title: 'Head of Development',
+    title: 'CTO',
     links: [
       { icon: 'github', link: 'https://github.com/ptr-15' },
       { icon: 'linkedin', link: 'https://linkedin.com' }
     ]
   },
   {
-    avatar: '/VitePress/image.png',
+    avatar: '/image.png',
     name: 'Rachel Israeli',
     title: 'Chief Engineer',
     links: [
