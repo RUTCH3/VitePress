@@ -1,6 +1,6 @@
 export default {
   srcDir: 'docs',
-  // allowed_elements: ["script", "VPTeamMembers", "Badge"],
+  allowed_elements: ["script", "VPTeamMembers", "Badge"],
   base: '/VitePress/',
   locales: {
     root: {
