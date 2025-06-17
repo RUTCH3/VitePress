@@ -1,0 +1,111 @@
+html[lang="he"] {
+  direction: rtl;
+}
+
+html[lang="he"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="he"] .VPNav,
+html[lang="he"] .VPSidebar {
+  direction: rtl;
+}
+
+html[lang="he"] .main{
+  text-align: right;
+}
+
+html[lang="he"] .logo{
+  margin-left: 8px;
+}
+
+html[lang="he"] .VPSidebar {
+  left: auto;
+  right: 0;
+  border-right: none;
+  border-left: 1px solid var(--vp-c-divider);
+}
+
+html[lang="he"] .VPContent {
+  margin-left: 0;
+}
+
+html[lang="he"] .VPContent.has-sidebar {
+  margin-left: 0;
+  margin-right: var(--vp-sidebar-width, 272px);
+}
+
+html[lang="he"] .VPNav {
+  flex-direction: row-reverse;
+}
+
+html[lang="he"] .VPNav .VPNavBar {
+  justify-content: flex-end;
+}
+
+html[lang="he"] .VPNav .VPNavBar .VPNavBarTitle {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+html[lang="he"] .VPNav .VPNavBar .VPNavBarMenu {
+  flex-direction: row-reverse;
+}
+
+html[lang="he"] .VPHome {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+html[lang="he"] .VPHome .container {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+html[lang="he"] input,
+html[lang="he"] textarea {
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="he"] ul,
+html[lang="he"] ol {
+  padding-right: 1.5em;
+  padding-left: 0;
+}
+
+html[lang="he"] .VPDoc {
+  text-align: right;
+}
+
+@media (min-width: 960px) {
+  :where([dir=rtl]) .VPNavBar.has-sidebar .title[data-v-e721e1e5] {
+      right: 0;
+  }
+}
+
+/* @media (min-width: 960px) {
+  .VPNavBar.has-sidebar .content[data-v-cf6e7c5e] {
+      position: relative;
+      z-index: 1;
+      padding-right: var(--vp-sidebar-width);; */
+      /* padding-left: var(--vp-sidebar-width); */
+      /* padding-left: 0px;
+  }
+} */
+
+/* @media (min-width: 960px) {
+  .VPNavBar.has-sidebar .title[data-v-cf6e7c5e] {
+      position: absolute;
+      top: 0;
+      /* left: 0; */
+      /* z-index: 2;
+      padding: 0 32px;
+      width: var(--vp-sidebar-width);
+      height: var(--vp-nav-height);
+      background-color: transparent;
+  }
+} */

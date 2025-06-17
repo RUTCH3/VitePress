@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+
+# VitePress build output
+# .vitepress/dist/
+.vitepress/cache/
+.vitepress/.temp/
+.vitepress/.vite/
+.vitepress/.cache/
+.vitepress/output/
+.vitepress/cache/deps/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*
+
+# Git folders (if you want to ignore nested repos)
+.git/ 
