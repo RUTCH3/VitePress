@@ -134,6 +134,6 @@ export default {
       }
     }
   },
-  base: '/',
+  base: '/VitePress-Rut-Chizkiyahu/',
   ignoreDeadLinks: true
 }
