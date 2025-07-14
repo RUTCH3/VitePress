@@ -41,6 +41,15 @@ jobs:
       - name: Build with VitePress
         run: npm run docs:build
 
+      - name: Debug - List build output
+        run: |
+          echo "Contents of .vitepress/dist:"
+          ls -la .vitepress/dist
+          echo "Contents of .vitepress/dist/assets:"
+          ls -la .vitepress/dist/assets || echo "No assets directory"
+          echo "First few lines of index.html:"
+          head -20 .vitepress/dist/index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
