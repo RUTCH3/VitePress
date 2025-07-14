@@ -2,7 +2,7 @@
 node_modules/
 
 # VitePress build output
-.vitepress/dist/
+# .vitepress/dist/
 .vitepress/cache/
 .vitepress/.temp/
 .vitepress/.vite/
@@ -22,5 +22,5 @@ yarn-error.log*
 # Local env files
 .env*
 
-# Git folders
+# Git folders (if you want to ignore nested repos)
 .git/ 
