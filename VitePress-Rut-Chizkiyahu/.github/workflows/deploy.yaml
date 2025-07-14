@@ -3,6 +3,8 @@ name: Deploy VitePress site to Pages
 on:
   push:
     branches: [main]
+    paths:
+      - 'VitePress-Rut-Chizkiyahu/**'
   workflow_dispatch:
 
 permissions:
