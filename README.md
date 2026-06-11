@@ -9,6 +9,9 @@ Deploy a simple VitePress instance with two pages:
 1. A landing page containing information a *fake* software tool from your imagination.
 2. An installation guide for the above mentioned tool.
 
+**NEW!!!**
+Published at https://rutch3.github.io/VitePress/
+Worth a look!
 
 ## 🚀 Getting Started
 
@@ -29,10 +32,10 @@ Deploy a simple VitePress instance with two pages:
 
    ```bash
    # Copy this project to your computer
-   git clone https://github.com/ptr-15/sign-up-2/tree/feature/VitePress
+   git clone https://github.com/RUTCH3//VitePress
    
    # Go into the project folder
-   cd VitePress-Rut-Chizkiyahu
+   cd VitePress
    ```
 
 2. **Install the tools we need**
