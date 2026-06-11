@@ -63,15 +63,25 @@ Deploy a simple VitePress instance with two pages:
 
 ## 📁 Understanding the Project Structure
 
-```md
-VitePress-Rut-Chizkiyahu/
-├── .vitepress/         # Contains the website's settings and theme
-├── docs/              # This is where all your content goes
-│   ├── he/           # Hebrew content
-│   ├── index.md      # The main page
-│   ├── our-team.md   # Information about the team
-│   └── installation-guide.md
-└── deploy.yml        # Settings for automatic website updates
+```text
+VitePress/
+├── .git/
+├── .github/
+│   └── workflows/
+│       └── deploy.yaml
+├── .gitignore
+├── .vitepress/
+├── Dockerfile
+├── docs/
+│   ├── index.md
+│   ├── installation-guide.md
+│   ├── our-team.md
+│   ├── he/
+│   │   └── index.md
+│   └── assets/ (images & logos)
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
 ## 🌐 What can this website do?
