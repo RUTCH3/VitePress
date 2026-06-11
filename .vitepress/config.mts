@@ -1,6 +1,6 @@
 export default {
   srcDir: 'docs',
-  head: [['link', { rel: 'icon', href: './circle_logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/circle_logo.png' }]],
   themeConfig: {
     search: {
       provider: 'local'
